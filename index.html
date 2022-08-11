@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+    <title>Wedding Invitation</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery-3.6.0.min.js"></script>
+    <script>
+    $(document).ready(function(){
+        $(".text-data").show();
+        $('.data').hide();
+        $(".plan").click(function(){
+            $(".text-data, .text-road, .text-contact, .text-details").hide();
+            $('.text-plan').show();
+            $('.data').show();
+        });
+        $('.road').click(function(){
+            $('.text-data, .text-plan, .text-contact, .text-details').hide();
+            $('.text-road').show();
+            $('.data').show();
+        })
+        $('.contact').click(function(){
+            $('.text-data, .text-plan, .text-road, .text-details').hide();
+            $('.text-contact').show();
+            $('.data').show();
+        })
+        $('.details').click(function() {
+            $('.text-data, .text-plan, .text-road, .text-contact').hide();
+            $('.text-details').show();
+            $('.data').show();
+        })
+        $('.data p').click(function(){
+            $('.text-contact, .text-plan, .text-road, .text-details').hide();
+            $('.text-data').show();
+            $('.data').hide();
+        })
+        
+      });</script>
+</head>
+<body>
+    <div class="main">
+        <div class="grid-container">
+            <div class="data"><p>Главная</p></div>
+            <div class="nx text-data">
+                <h2>Дорогие родные <br> и друзья!</h2>
+                <p>Приглашаем Вас на празднование нашей свадьбы, которое состоится</p>
+                <p>во вторник <br> 23 Августа 2022г <br>в 16:30 <br><br>Ресторан "Русская Рыбалка" (Морской зал)<br> ш. Приморское 452 лит. А</p>
+            </div>
+            <div class="nx text-plan">
+                <h2>План <br> мероприятия</h2>
+                <div>
+                <ul class="table-text">
+                    <li>15:30 - Трансфер от м.Беговая до Русской Рыбалки</li>
+                    <br>
+                    <li>16:30 - Встреча гостей</li>
+                    <br>
+                    <li>17:00 - Выездная регистрация</li>
+                    <br>
+                    <li>17:30 - Начало банкета</li>
+                    <br>
+                    <li>22:30 - Трансфер от Русской Рыбалки до м.Беговая</li>
+                </ul>
+            </div>
+            </div>
+            <div class="nx text-road">
+                <h2>Как <br> добраться</h2>
+                <div>
+                    <p>Адрес проведения торжества: <br> ш. Приморское, 452 лит. А <br>
+                         Ресторан "Русская Рыбалка" (Морской зал)</p>
+                    <p>Добраться до места Вы сможете:</p>
+                <ul class="table-text2">
+                    <li><img src="flower4.png" alt="" class="iconflower"> На нашем трансфере от м.Беговая ~ 45мин <br>(Время отправления - 15:30)
+                        <a href="transfermap.jpg" target="_blank">Посмотреть</a>
+                    </li>
+                    <br>
+                    <li><img src="flower4.png" alt="" class="iconflower"> На такси или машине от м.Беговая ~ 45мин 
+                        <br>
+                        <a href="https://yandex.ru/maps/-/CCURyAQfcC" target="_blank">Посмотреть</a>
+                    </li>
+                </ul>
+            </div>
+            </div>
+            <div class="nx text-details">
+                <h2>Пожелания</h2>
+                <p><img src="flower4.png" alt="" class="iconflower">Главное для нас - Ваше внимание, а радость доставит любой подарок в конверте. <br><br> <img src="flower4.png" alt="" class="iconflower">Мы любим цветы, но после свадьбы нам негде будет их разместить, поэтому просим воздержаться от данного подарка. Вместо букета нам будет приятно получить от Вас в подарок книгу.</p>
+                <p><img src="flower4.png" alt="" class="iconflower">Нам будет приятно, если Вы поддержите цветовую гамму торжества и выберите наряды в соответствии с цветовой палитрой нашей свадьбы, но это необязательно.</p>
+                <img src="Dress.jpg" class="dresscode" alt="">
+            </div>
+            <div class="nx text-contact">
+                <h2>Свадебный <br> координатор</h2>
+               <p>В день мероприятия по всем вопросам обращайтесь к нашему свадебному координатору</p><a href="https://vk.com/lovushkinaa" id="Angelina" target="_blank">Ангелина</a> <br><a href="https://vk.com/lovushkinaa" target="_blank">Страница в VK</a>
+               <p>+7 (911) 284-84-06</p>
+              
+               <hr>
+               <div class="AK">
+                <p>С любовью,</p>
+                <h2>Алексей и Ксения</h2>
+            </div>
+            </div>
+            
+            <div class="footer">
+                <ul>
+                    <li class="plan">План</li>
+                    <li class="road">Как добраться</li>
+                    <li class="details">Пожелания</li>
+                    <li class="contact">Вопросы</li>
+                </ul>
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html>
