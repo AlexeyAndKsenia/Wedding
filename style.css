@@ -145,8 +145,6 @@ body {
     margin-top: 18px;
 }
 
-
-
 }
 
 .text-contact p {
@@ -180,7 +178,7 @@ a {
     height: 22px;
     width: 22px;
     color: green;
-    margin-right: 8px;
+    margin-right: 5px;
 }
 
 
@@ -229,12 +227,6 @@ a {
             width: 100%;
             height: auto;
         
-    }
-
-    .iconflower {
-        width: 22px;
-        height: 22px;
-        margin-right: 8px;
     }
 
     .AK {
