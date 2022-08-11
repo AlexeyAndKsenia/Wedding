@@ -222,9 +222,7 @@ a {
         text-align: center;
     }
 
-    .text-data h2 {
-        font-size: 46px;
-    }
+   
 
     .dresscode {
             
@@ -245,6 +243,10 @@ a {
         text-align: center;
         line-height: 1.1;
         font-size: 38px;
+    }
+
+    .text-data h2 {
+        font-size: 46px;
     }
 
     ul li {
