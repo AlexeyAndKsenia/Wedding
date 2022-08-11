@@ -180,6 +180,7 @@ a {
     height: 22px;
     width: 22px;
     color: green;
+    margin-right: 8px;
 }
 
 
@@ -233,7 +234,7 @@ a {
     .iconflower {
         width: 22px;
         height: 22px;
-        margin-right: 10px;
+        margin-right: 8px;
     }
 
     .AK {
